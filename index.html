@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Canvas Drawing App</title>
+    <link rel="stylesheet" href="styles.css" media="screen">
+</head>
+
+<body>
+    <div class="options">
+        <div class="colour-box" id="black"></div>
+        <div class="colour-box" id="blue"></div>
+        <div class="colour-box" id="red"></div>
+        <div class="colour-box" id="yellow"></div>
+        <div class="colour-box" id="green"></div>
+        <div class="size-box" id="size-2-box">
+          <div id="size-2"></div>
+        </div>
+        <div class="size-box" id="size-5-box">
+          <div id="size-5"></div>
+        </div>
+        <div class="size-box" id="size-10-box">
+          <div id="size-10"></div>
+        </div>
+        <div class="size-box" id="size-20-box">
+          <div id="size-20"></div>
+        </div>
+    </div>
+    <div class="canvas-container">
+        <div id="reset"></div>
+        <canvas id="canvas" width="800" height="500"></canvas>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous">
+    </script>
+    <script type="text/javascript" src="src/app.js"></script>
+</body>
+
+</html>
